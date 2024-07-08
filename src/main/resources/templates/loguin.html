@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/css/loguin.css}">
+    <title>Loguin</title>
+</head>
+
+<body>
+<div id="all_containder">
+    <div id="text_container">
+        <h1>Loguin</h1>
+        <p>Para poder continuar por favor inicia session o accede a crear una <a href="">cuenta nueva</a> con nosotros
+        </p>
+    </div>
+
+    <form action="" method="post">
+        <input type="email" name="email" id="email" placeholder="example@email.com" required>
+        <input type="password" name="password" id="password" placeholder="Pas***rd" required>
+        <input type="submit" value="Send" id="button">
+    </form>
+</div>
+</body>
+
+</html>

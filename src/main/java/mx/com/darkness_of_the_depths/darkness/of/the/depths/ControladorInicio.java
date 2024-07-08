@@ -11,4 +11,8 @@ public class ControladorInicio {
         return "index";
     }
 
+    @GetMapping("/loguin")
+    public String loguin() {
+        return "loguin";
+    }
 }
