@@ -5,6 +5,7 @@
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/595/595474.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" th:href="@{/css/index.css}">
+    <link rel="stylesheet" th:href="@{/css/design_elements/footer.css}">
     <title>Darkness Of The Depths</title>
 </head>
 <body>
@@ -30,8 +31,9 @@
             </div>
         </nav>
     </div>
+
     <div class="productos">
-        <div class="board-products">
+        <div class="board-products" id="container_products">
             <div><img src="https://www.burzum.org/img/covers/small/official/1992_burzum.jpg" alt="digital disc image"/>
                 <p>Burzum</p>
                 <p>Band: Burzum</p>
@@ -143,6 +145,7 @@
             </div>
         </div>
     </div>
+
     <footer>
         <div id="about"><h2>About</h2>
             <p>We are a corporation that is dedicated to selling records online,
@@ -158,9 +161,10 @@
                         src="https://cdn-icons-png.flaticon.com/128/733/733547.png" alt="facebook icon link"/></a>
             </div>
         </div>
-        <div id="copyrigth"><h2>Copyrigth</h2>
-            <p>Rights reserved to Darkness Of The Depths corporation</p></div>
+        <div th:text="copyrigth"><h2></h2>
+            <p th:text="Rights reserved to Darkness Of The Depths corporation"></p></div>
     </footer>
 </div>
+<script src="/src//main/resources/static/js/index.js">showProducts()</script>
 </body>
 </html>
