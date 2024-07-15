@@ -1,7 +1,6 @@
-package mx.com.darkness_of_the_depths.darkness.of.the.depths.loguin;
+package mx.com.darkness_of_the_depths.darkness_of_the_depths.loguin;
 
-import mx.com.darkness_of_the_depths.darkness.of.the.depths.ControladorInicio;
-import org.assertj.core.api.Assert;
+import mx.com.darkness_of_the_depths.controller.ControladorInicio;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

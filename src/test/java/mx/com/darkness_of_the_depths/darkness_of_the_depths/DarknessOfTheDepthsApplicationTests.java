@@ -1,4 +1,4 @@
-package mx.com.darkness_of_the_depths.darkness.of.the.depths;
+package mx.com.darkness_of_the_depths.darkness_of_the_depths;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

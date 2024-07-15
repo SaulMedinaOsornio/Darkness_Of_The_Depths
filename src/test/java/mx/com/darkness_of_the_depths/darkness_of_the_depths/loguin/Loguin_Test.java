@@ -1,6 +1,6 @@
-package mx.com.darkness_of_the_depths.darkness.of.the.depths.loguin;
+package mx.com.darkness_of_the_depths.darkness_of_the_depths.loguin;
 
-import mx.com.darkness_of_the_depths.darkness.of.the.depths.LoguinController;
+import mx.com.darkness_of_the_depths.controller.LoguinController;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
