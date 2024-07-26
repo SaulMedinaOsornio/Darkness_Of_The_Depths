@@ -1,4 +1,4 @@
-package mx.com.darkness_of_the_depths.darkness_of_the_depths.loguin;
+package mx.com.darkness_of_the_depths.loguin;
 
 import mx.com.darkness_of_the_depths.controller.LoguinController;
 import org.junit.jupiter.api.Test;
