@@ -1,4 +1,4 @@
-package mx.com.darkness_of_the_depths.controller.models;
+package mx.com.darkness_of_the_depths.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

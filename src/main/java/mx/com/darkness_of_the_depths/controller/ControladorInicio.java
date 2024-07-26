@@ -1,36 +1,17 @@
 package mx.com.darkness_of_the_depths.controller;
 
-import mx.com.darkness_of_the_depths.controller.models.Adress;
-import mx.com.darkness_of_the_depths.controller.models.User;
-import org.springframework.stereotype.Controller;
+import mx.com.darkness_of_the_depths.model.Adress;
+import mx.com.darkness_of_the_depths.model.User;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.List;
 
-//@RestController
-@Controller
+@RestController
 public class ControladorInicio {
-
-    @GetMapping("/index")
-    public String inicio() {
-        return "index";
-    }
-
-    @GetMapping("/loguin")
-    public String loguin() {
-        return "loguin";
-    }
-
-    @GetMapping("/cart")
-    public String cart() {
-        return "cart";
-    }
-
 
     @GetMapping("/test")
     public String testingData(Model model) {
@@ -59,7 +40,7 @@ public class ControladorInicio {
         return "data";
     }
 
-    @RequestMapping(value = "/user/{id}")
+    @GetMapping(value = "/user/{id}")
     public User getUser(@PathVariable Long id) {
         User user = new User();
         user.setId(id);

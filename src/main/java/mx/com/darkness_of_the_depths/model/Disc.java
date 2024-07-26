@@ -1,4 +1,4 @@
-package mx.com.darkness_of_the_depths.controller.models;
+package mx.com.darkness_of_the_depths.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,9 +7,10 @@ import lombok.Data;
 @AllArgsConstructor
 public class Disc {
     private String name;
-    private String lunchDate;
+    private String launchDate;
     private String genre;
-    private Band band;
+    private String band;
+    private String artist;
     private Double price;
     private String urlImage;
 }
