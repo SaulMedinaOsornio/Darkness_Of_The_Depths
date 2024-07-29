@@ -1,6 +1,14 @@
 package mx.com.darkness_of_the_depths.controller;
 
+import mx.com.darkness_of_the_depths.repository.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController("/loguin")
 public class LoguinController {
+
+    @Autowired
+    UserRepository userRepository;
 
     public String serverMessageStatus(String email, String password){
         if (areCorrect(email,password)){

@@ -42,6 +42,9 @@
 .navegator h1 {
     font-family: 'Old English Five', sans-serif;
 }
+.navegator h1 a{
+    color: #fff;
+}
 
 /*Second element serch*/
 #serch_container {
@@ -129,4 +132,14 @@ input[type="text"] {
 
 #loguin_container button:hover {
     background-color: #999999;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
 }

@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" th:href="@{/css/index.css}">
     <link rel="stylesheet" th:href="@{/css/design_elements/footer.css}">
+
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="stylesheet" href="../static/css/design_elements/nav.css">
+    <link rel="stylesheet" href="../static/css/design_elements/footer.css">
     <title>Darkness Of The Depths</title>
 </head>
 <body>
@@ -13,21 +17,21 @@
     <div class="navegator">
         <nav>
             <div id='text_container'>
-                <h1>DARKNESS OF THE DEPHTS</h1>
+                <h1><a href="index.html">DARKNESS OF THE DEPHTS</a></h1>
                 <p>buy the best & newest albums</p>
             </div>
-            <div id='serch_container'>
-                <input type="text" placeholder='Serch for name'/>
+            <div id="serch_container">
+                <input type="text" id="search-input" placeholder="Search for name"/>
                 <button id="search-button">Buscar</button>
             </div>
             <div id='card_container'>
                 <button id='card-button'>
                     <img src="https://cdn-icons-png.flaticon.com/128/4175/4175027.png" alt="card-icon"/>
-                    <p>Carrito</p>
+                    <p><a href="cart.html">Carrito</a></p>
                 </button>
             </div>
             <div id='loguin_container'>
-                <button id='loguin-button'><a href="../views/user/log/loguin.html"></a>Loguin</button>
+                <button id='loguin-button'><a href="./loguin.html">Login</a></button>
             </div>
         </nav>
     </div>
@@ -42,7 +46,8 @@
                     <button>+</button>
                 </p>
             </div>
-            <div><img
+            <div>
+                <img
                     src="https://www.emp.de/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw2cfdcd92/images/4/4/5/2/445252a.jpg?sfrm=png"
                     alt="digital disc image"/>
                 <p>De Mysteriis Dom Sathanas</p>

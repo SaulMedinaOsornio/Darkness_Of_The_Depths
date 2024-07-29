@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class Login_Test {
     private LoguinController loginController = new LoguinController();
     private final boolean expectedFalse = false;
-    private final boolean expectedTrue = false;
+    private final boolean expectedTrue = true;
 
     //Email Test
     @Test
